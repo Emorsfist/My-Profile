@@ -1,0 +1,58 @@
+.side-bar-01{
+  background-color: rgba(0, 0, 0, 0.096);
+  text-align: center;
+  text-decoration: none;
+  position: absolute;
+  width: 200px;
+  height: 630px;
+}
+
+.logo{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 150px;
+}
+
+.menu{
+  padding-bottom: 30px;
+}
+
+.menu a {
+  margin-top: 30px;
+  margin-bottom: 0px;
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  display: block;
+  justify-content: space-between;
+}
+
+.hr2{
+  margin-bottom: 15px;
+}
+
+.fa {
+  padding: 8px 20px 5px 20px;
+  font-size: 30px;
+  font-weight: bolder;
+  border-radius: 50px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}

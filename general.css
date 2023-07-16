@@ -1,0 +1,42 @@
+*{
+  margin: 0px;
+  font-family: 'Slabo', Roboto, Raleway, Sans-serif;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.bg{
+  background-image: url(Background.jpg);
+
+  width: 1350px;
+  height: 630px;
+  display: inline;
+  position: absolute;
+}
+
+@media only screen and (min-width: 414px) and (max-width: 768px) {
+  .bg{
+background-image: none;
+background-color:aliceblue;
+height: 768px;
+
+
+    }
+
+
+
+    .logo{
+      margin-top: 50px;
+      margin-bottom: 50px;
+      width: 50px;
+    }
+
+    .side-bar-01{
+      background-color: rgba(0, 0, 0, 0.096);
+      text-align: center;
+      text-decoration: none;
+      position: absolute;
+      width: 200px;
+      height: 100px;
+    }
+}
