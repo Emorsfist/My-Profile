@@ -1,0 +1,51 @@
+Designer
+I value simple content structure, clean design patterns, and thoughtful interactions.
+
+Things I enjoy designing:
+
+UX, UI, Web, Apps, Logos
+
+Design Tools:
+
+Affinity Designer
+Figma
+Font Awesome
+Pen & Paper
+Sketch
+Webflow
+
+Frontend Developer
+I like to code things from scratch, and enjoy bringing ideas to life in the browser.
+
+Languages I speak:
+
+HTML, Pug, Slim, CSS, Sass, Git
+
+Dev Tools:
+
+Atom
+Bitbucket
+Bootstrap
+Bulma
+Codekit
+Github
+Surge
+Terminal
+Vercel
+
+Mentor
+I genuinely care about people, and love helping fellow designers work on their craft.
+
+Experiences I draw from:
+
+UX/UI, Product design, Freelancing
+
+Mentor Stats:
+
+7 years experience
+26 short courses
+65 bootcamps
+200+ students
+2,350+ mentor sessions
+60+ group critiques
+16,500+ comments

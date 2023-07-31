@@ -1,0 +1,284 @@
+.banner {
+    width: 100%;
+}
+
+.bg {
+    display: none;
+}
+
+.profile-img{
+    margin-left: 130px;
+    background: white;
+    border-radius: 100%;
+    width: 100px;
+    height: 95px;
+    align-items: center;
+    text-align: center;
+    border: 10px solid rgb(2,0,36);
+    position: relative;
+}
+
+.profile-wrapper{
+    margin-top: 90px;
+    margin-left: 7.5%;
+    width: 90%;
+    position:absolute;
+    background: #aec0d1;
+}
+
+.profile{
+    padding-top: 30px;
+}
+
+.profile h2{
+    margin-left: 20%;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    width: 200px;
+}
+
+.profile p{
+    margin-left: 5px;
+    margin-bottom: 15px;
+    margin-right: 5px;
+    font-size: 15px;
+   
+}
+
+/* Dimensions: Mobile */
+@media only screen and (min-width: 320px){
+    .banner {
+        display: inline;
+    }
+    
+    .profile-img{
+        margin-left: 30%;
+    }
+    
+    .profile-wrapper{
+        margin-left: 5%;
+    }
+    
+    .profile{
+        padding-top: 30px;
+    }
+    
+    .profile h2{
+        margin-left: 15%;
+        font-size: 15px;
+    }
+    
+    .profile p{
+        font-size: 12px;
+    }
+}
+
+/* Dimensions: Tablet */
+@media only screen and (min-width: 768px){
+    .profile-img{
+        margin-top: 0%;
+        margin-left: 5%;
+        width: 150px;
+        height: 145px;
+    }
+
+    .profile-wrapper{
+        margin-top: 0px;
+        margin-left: 20%;
+        width: 67%;
+    }
+
+    .profile h2{
+        margin-left: 13%;
+        font-size: 20px;
+        text-align: left;
+        padding-bottom: 10px;
+        width: 200px;
+    }
+    
+    .profile p{
+        margin-left: 13%;
+        margin-right: 8%;
+        font-size: 15px;
+       margin-bottom: 10px;
+    }
+}
+
+/* Dimensions: Window */
+@media only screen and (min-width: 1024px){
+    .bg {
+        width: 1024px;
+        height: 400px;
+        display:block;
+        position:absolute;
+    }
+
+    .profile-img{
+        margin-top: 3%;
+        margin-left: 5%;
+        background: white;
+        border-radius: 100%;
+        width: 350px;
+        height: 345px;
+        border: 10px solid rgb(2,0,36);
+        position: relative;
+    }
+
+    .profile-wrapper{
+        margin-top: 33%;
+        margin-left: 10%;
+        margin-right: 15%;
+        width: 80%;
+        position:absolute;
+        background: #aec0d1;
+    }
+
+    .profile h2{
+        margin-left: 29%;
+        font-size: 40px;
+        text-align: center;
+        padding-top: 5px;
+        width: 400px;
+    }
+
+    .profile p{
+        margin: 15px;
+        font-size: 32px;
+        padding-bottom: 15px;
+    }
+}
+
+/* Dimensions: Window */
+@media only screen and (min-width: 1280px){
+    .bg {
+        width: 1280px;
+        height: 400px;
+        display:block;
+        position:absolute;
+    }
+
+    .profile-img{
+        margin-top: 2%;
+        margin-left: 10%;
+        background: white;
+        border-radius: 100%;
+        width: 350px;
+        height: 345px;
+        border: 10px solid rgb(2,0,36);
+        position: relative;
+    }
+
+    .profile-wrapper{
+        margin-top: 27%;
+        margin-left: 15%;
+        margin-right: 15%;
+        width: 70%;
+        position:absolute;
+        background: #aec0d1;
+    }
+
+    .profile h2{
+        margin-left: 29%;
+        font-size: 40px;
+        text-align: center;
+        padding-top: 5px;
+        width: 400px;
+    }
+
+    .profile p{
+        margin: 15px;
+        font-size: 32px;
+        padding-bottom: 15px;
+    }
+}
+
+/* Dimensions: Mac OSX */
+@media  only screen and (min-width: 1080px) {
+    .bg {
+        width: 1349px;
+        height: 400px;
+        display:block;
+        position:absolute;
+    }
+
+    .profile-img{
+        margin-top: 2%;
+        margin-left: 10%;
+        background: white;
+        border-radius: 100%;
+        width: 350px;
+        height: 345px;
+        border: 10px solid rgb(2,0,36);
+        position: relative;
+    }
+
+    .profile-wrapper{
+        margin-top: 25%;
+        margin-left: 15%;
+        margin-right: 15%;
+        width: 70%;
+        position:absolute;
+        background: #aec0d1;
+    }
+
+
+    .profile h2{
+        margin-left: 35%;
+        font-size: 30px;
+        text-align: center;
+        padding-top: 15px;
+        width: 300px;
+    }
+
+    .profile p{
+        margin: 15px;
+        font-size: 20px;
+        padding-bottom: 15px;
+    }
+}
+
+/* Dimensions: Mac OSX */
+@media  only screen and (min-width: 1920px) {
+    .bg {
+        width: 1920px;
+        height: 400px;
+        display:block;
+        position:absolute;
+    }
+
+    .profile-img{
+        margin-top: 1%;
+        margin-left: 10%;
+        background: white;
+        border-radius: 100%;
+        width: 350px;
+        height: 345px;
+        border: 10px solid rgb(2,0,36);
+        position: relative;
+    }
+
+    .profile-wrapper{
+        margin-top: 15%;
+        margin-left: 15%;
+        margin-right: 15%;
+        width: 70%;
+        position:absolute;
+        background: #aec0d1;
+    }
+
+    .profile h2{
+        margin-left: 35%;
+        font-size: 40px;
+        text-align: center;
+        padding-top: 5px;
+        width: 400px;
+    }
+
+    .profile p{
+        margin: 15px;
+        font-size: 32px;
+        padding-bottom: 15px;
+    }
+}
