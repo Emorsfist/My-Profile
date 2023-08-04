@@ -35,6 +35,18 @@
     }
 }
 
+/* Dimensions: Mobile on Rotate */
+@media only screen and (min-width: 667px){
+    .title h1{
+        font-size: 20px;
+    }
+    
+    .title p{
+        padding: 8px;
+        font-size: 15px;
+    }
+}
+
 /* Dimensions: Smart Phone */
 @media only screen and (min-width: 768px){
     .title{

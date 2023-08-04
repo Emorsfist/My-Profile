@@ -171,6 +171,69 @@
 }
 }
 
+/* Dimensions: OPPO A57 */
+@media only screen and (min-width: 356px){
+  .header img{
+    margin-left: 30px;
+    margin-top: 15px;
+    width: 25%;
+    height: 55%;
+  }
+}
+
+/* Dimensions: OPPO A57 on Rotate */
+@media only screen and (min-width: 356px){
+  .header img{
+    margin-left: 30px;
+    margin-top: 15px;
+    width: 20%;
+    height: 55%;
+  }
+}
+
+/* Dimensions: Mobile on Rotate */
+@media only screen and (min-width: 667px){
+  .header{
+    width: 100%;
+    height: 70px;
+}
+
+.header img{
+  margin-left: 30px;
+  margin-top: 15px;
+  width: 15%;
+  height: 70%;
+}
+
+.social-handles .icon{
+  width: 29px;
+  height: 29px;
+}
+
+.icon-facebook{
+  margin-left: 45%;
+  
+  display: inline;
+}
+
+.icon-github{
+  display: inline;
+  margin-left: 3%;
+  font-size: 9px;
+}
+
+.icon-gitlab{
+  display: inline;
+  margin-left: 5%;
+  font-size: 10px;
+}
+
+.icon-youtube {
+  display: inline;
+  font-size:6.8px;
+}
+}
+
 /* Dimensions: Smart Phone */
   @media only screen and (min-width: 768px){
     .header img{
@@ -236,7 +299,6 @@
   margin-right: 120px;
   margin-top: 30px;
 }
-
 }
 
 /* Dimensions: Mac OSX */

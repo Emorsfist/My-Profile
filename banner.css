@@ -1,5 +1,11 @@
+.all-in-banner{
+    width: 100%;
+    position:relative;
+}
+
 .banner {
     width: 100%;
+    height: 600px;
 }
 
 .bg {
@@ -22,6 +28,7 @@
     margin-top: 90px;
     margin-left: 7.5%;
     width: 90%;
+    height: 350px;
     position:absolute;
     background: #aec0d1;
 }
@@ -44,17 +51,25 @@
     margin-bottom: 15px;
     margin-right: 5px;
     font-size: 15px;
-   
+    text-align: center;
 }
 
+
+
 /* Dimensions: Mobile */
-@media only screen and (min-width: 320px){
+@media only screen and (min-width: 414px){
+    .all-in-banner{
+        width: 100%;
+        height: 270px;
+    }
+
     .banner {
         display: inline;
+        height: 600px;
     }
     
     .profile-img{
-        margin-left: 30%;
+        margin-left: 36%;
     }
     
     .profile-wrapper{
@@ -66,7 +81,99 @@
     }
     
     .profile h2{
-        margin-left: 15%;
+        margin-left: 24%;
+        font-size: 15px;
+    }
+    
+    .profile p{
+        font-size: 12px;
+    }
+}
+
+/* Dimensions: OPPO A57 */
+@media only screen and (min-width: 356px){
+    .all-in-banner{
+        width: 100%;
+        height: 270px;
+    }
+    
+    .profile-img{
+        margin-left: 32%;
+    }
+    
+    .profile-wrapper{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    .profile{
+        padding-top: 30px;
+    }
+    
+    .profile h2{
+        margin-left: 20%;
+        font-size: 15px;
+    }
+    
+    .profile p{
+        font-size: 12px;
+    }
+}
+
+/* Dimensions: OPPO A57 on Rotate */
+@media only screen and (min-width: 635px){
+        .all-in-banner{
+            width: 100%;
+            height: 270px;
+        }
+
+        .profile-img{
+            margin-left: 40%;
+        }
+        
+        .profile-wrapper{
+            margin-left: 5%;
+        }
+        
+        .profile{
+            padding-top: 30px;
+        }
+        
+        .profile h2{
+            margin-left: 33%;
+            font-size: 15px;
+        }
+        
+        .profile p{
+            font-size: 12px;
+        }
+}
+
+/* Dimensions: Mobile on Rotate */
+@media only screen and (min-width: 736px){
+    .all-in-banner{
+        width: 100%;
+    }
+
+    .banner {
+        display: inline;
+        height: 600px;
+    }
+    
+    .profile-img{
+        margin-left: 42%;
+    }
+    
+    .profile-wrapper{
+        margin-left: 5%;
+    }
+    
+    .profile{
+        padding-top: 30px;
+    }
+    
+    .profile h2{
+        margin-left: 35%;
         font-size: 15px;
     }
     
@@ -77,6 +184,10 @@
 
 /* Dimensions: Tablet */
 @media only screen and (min-width: 768px){
+    .all-in-banner{
+        width: 100%;
+    }
+
     .profile-img{
         margin-top: 0%;
         margin-left: 5%;
@@ -108,6 +219,10 @@
 
 /* Dimensions: Window */
 @media only screen and (min-width: 1024px){
+    .all-in-banner{
+        width: 100%;
+    }
+
     .bg {
         width: 1024px;
         height: 400px;
@@ -152,6 +267,10 @@
 
 /* Dimensions: Window */
 @media only screen and (min-width: 1280px){
+    .all-in-banner{
+        width: 100%;
+    }
+
     .bg {
         width: 1280px;
         height: 400px;
@@ -196,6 +315,10 @@
 
 /* Dimensions: Mac OSX */
 @media  only screen and (min-width: 1080px) {
+    .all-in-banner{
+        width: 100%;
+    }
+
     .bg {
         width: 1349px;
         height: 400px;
