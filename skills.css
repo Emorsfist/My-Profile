@@ -1,46 +1,48 @@
+/* Dimensions: Mobile */
 .columns{
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 23%;
-    position: absolute;
-    display: flex;
-    justify-content: space-between;
-    gap: 0.5%;
-    text-align: center;
+    margin-left: 9.5%;
+    margin-top: 96%;
+    position: relative;
+    display: inline-block;
 }
 
 .column{
     background-color: rgb(255, 255, 255);
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 5%;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 8%;
     border-radius: 20px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+    width: 250px;
 }
 
 .column h1{
     color: rgb(20, 28, 58);
-    padding-bottom: 10%;
+    padding-bottom: 5%;
     font-family: eurostile, sans-serif;
-    font-size: 24px;
+    font-size: 18px;
     font-feature-settings: normal;
     font-kerning: auto;
     font-optical-sizing: auto;
     font-stretch: 100%;
+    text-align: center;
 }
 
 .column p{
-    padding-bottom: 10%;
-    font-size: 18px;
+    padding-bottom: 5%;
+    font-size: 15px;
     display: block;
     font-family: europa, sans-serif;
     font-feature-settings: normal;
     font-kerning: auto;
     font-optical-sizing: auto;
     font-stretch: 100%;
+    text-align: center;
 }
 
 .list-title{
-    padding-bottom: 10px;
+    padding-bottom: 8px;
     color: rgb(110,7,243);
     font-size: 18px;
     display: block;
@@ -56,15 +58,73 @@
     margin-left: 0;
     margin-top: 0;
     display: block;
-    line-height: 30px;
+    line-height: 25px;
 }
 
 li {
     display: list-item;
+    text-align: center;
+    font-size: 15px;
 }
 
-/* Dimensions: Mobile */
-@media only screen and (min-width: 414px){
+/* Dimensions: Tablet */
+@media only screen and (min-width: 768px) {
+    .columns{
+        margin-top: 48%;
+        margin-left: 25%;
+        display: inline-block;
+    }
 
+    .column{
+        width: 400px;
+    }
+
+    .column h1{
+        font-size: 30px;
+    }
+
+    .column p{
+        font-size: 25px;
+    }
+
+    .column ul{
+        line-height: 33px;
+    }
+
+    li {
+        font-size: 25px;
+    }
 }
 
+/* Dimensions: Window */
+@media only screen and (min-width: 1000px){
+    .columns{
+        margin-left: 5%;
+        margin-right: 5%;
+        display: flex;
+        justify-content: space-between;
+        gap: 0.5%;
+    }
+
+    .column{
+        padding-top: 5%;
+        padding-left: 3%;;
+        padding-right: 3%;
+    }
+
+    .column h1{
+        font-size: 20px;
+    }
+
+    .column p{
+        font-size: 18px;
+    }
+
+    .column ul{
+        line-height: 33px;
+    }
+
+    li {
+        font-size: 18px;
+    }
+}

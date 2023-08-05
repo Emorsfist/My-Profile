@@ -1,11 +1,13 @@
+/* Dimensions: Mobile */
 .all-in-banner{
     width: 100%;
-    position:relative;
+    position:absolute;
 }
 
 .banner {
+    margin: 0 auto;
     width: 100%;
-    height: 600px;
+    display: inline-block;
 }
 
 .bg {
@@ -13,7 +15,7 @@
 }
 
 .profile-img{
-    margin-left: 130px;
+    margin-left: 33%;
     background: white;
     border-radius: 100%;
     width: 100px;
@@ -26,9 +28,9 @@
 
 .profile-wrapper{
     margin-top: 90px;
-    margin-left: 7.5%;
+    margin-left: 5%;
     width: 90%;
-    height: 350px;
+    height: 300px;
     position:absolute;
     background: #aec0d1;
 }
@@ -37,9 +39,9 @@
     padding-top: 30px;
 }
 
-.profile h2{
+.profile h1{
     margin-left: 20%;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     padding-top: 5px;
     padding-bottom: 10px;
@@ -52,134 +54,6 @@
     margin-right: 5px;
     font-size: 15px;
     text-align: center;
-}
-
-
-
-/* Dimensions: Mobile */
-@media only screen and (min-width: 414px){
-    .all-in-banner{
-        width: 100%;
-        height: 270px;
-    }
-
-    .banner {
-        display: inline;
-        height: 600px;
-    }
-    
-    .profile-img{
-        margin-left: 36%;
-    }
-    
-    .profile-wrapper{
-        margin-left: 5%;
-    }
-    
-    .profile{
-        padding-top: 30px;
-    }
-    
-    .profile h2{
-        margin-left: 24%;
-        font-size: 15px;
-    }
-    
-    .profile p{
-        font-size: 12px;
-    }
-}
-
-/* Dimensions: OPPO A57 */
-@media only screen and (min-width: 356px){
-    .all-in-banner{
-        width: 100%;
-        height: 270px;
-    }
-    
-    .profile-img{
-        margin-left: 32%;
-    }
-    
-    .profile-wrapper{
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-    
-    .profile{
-        padding-top: 30px;
-    }
-    
-    .profile h2{
-        margin-left: 20%;
-        font-size: 15px;
-    }
-    
-    .profile p{
-        font-size: 12px;
-    }
-}
-
-/* Dimensions: OPPO A57 on Rotate */
-@media only screen and (min-width: 635px){
-        .all-in-banner{
-            width: 100%;
-            height: 270px;
-        }
-
-        .profile-img{
-            margin-left: 40%;
-        }
-        
-        .profile-wrapper{
-            margin-left: 5%;
-        }
-        
-        .profile{
-            padding-top: 30px;
-        }
-        
-        .profile h2{
-            margin-left: 33%;
-            font-size: 15px;
-        }
-        
-        .profile p{
-            font-size: 12px;
-        }
-}
-
-/* Dimensions: Mobile on Rotate */
-@media only screen and (min-width: 736px){
-    .all-in-banner{
-        width: 100%;
-    }
-
-    .banner {
-        display: inline;
-        height: 600px;
-    }
-    
-    .profile-img{
-        margin-left: 42%;
-    }
-    
-    .profile-wrapper{
-        margin-left: 5%;
-    }
-    
-    .profile{
-        padding-top: 30px;
-    }
-    
-    .profile h2{
-        margin-left: 35%;
-        font-size: 15px;
-    }
-    
-    .profile p{
-        font-size: 12px;
-    }
 }
 
 /* Dimensions: Tablet */
@@ -197,41 +71,43 @@
 
     .profile-wrapper{
         margin-top: 0px;
-        margin-left: 20%;
-        width: 67%;
+        margin-left: 16%;
+        width: 75%;
+        height: 450px;
     }
 
-    .profile h2{
-        margin-left: 13%;
-        font-size: 20px;
+    .profile h1{
+        margin-left: 15%;
+        font-size: 30px;
         text-align: left;
         padding-bottom: 10px;
-        width: 200px;
+        width: 300px;
     }
     
     .profile p{
-        margin-left: 13%;
+        margin-left: 15%;
         margin-right: 8%;
-        font-size: 15px;
+        font-size: 25px;
        margin-bottom: 10px;
+       text-align: left;
     }
 }
 
 /* Dimensions: Window */
-@media only screen and (min-width: 1024px){
+@media only screen and (min-width: 1000px){
     .all-in-banner{
         width: 100%;
     }
 
     .bg {
-        width: 1024px;
+        width: 1348px; 
         height: 400px;
         display:block;
-        position:absolute;
+        position: absolute;
     }
 
     .profile-img{
-        margin-top: 3%;
+        margin-top: 2%;
         margin-left: 5%;
         background: white;
         border-radius: 100%;
@@ -242,7 +118,7 @@
     }
 
     .profile-wrapper{
-        margin-top: 33%;
+        margin-top: 25%;
         margin-left: 10%;
         margin-right: 15%;
         width: 80%;
@@ -250,158 +126,20 @@
         background: #aec0d1;
     }
 
-    .profile h2{
-        margin-left: 29%;
-        font-size: 40px;
+    .profile h1{
+        margin-left: 40%;
+        font-size: 25px;
         text-align: center;
         padding-top: 5px;
-        width: 400px;
+        width: 250px;
     }
 
     .profile p{
-        margin: 15px;
-        font-size: 32px;
-        padding-bottom: 15px;
-    }
-}
-
-/* Dimensions: Window */
-@media only screen and (min-width: 1280px){
-    .all-in-banner{
-        width: 100%;
-    }
-
-    .bg {
-        width: 1280px;
-        height: 400px;
-        display:block;
-        position:absolute;
-    }
-
-    .profile-img{
-        margin-top: 2%;
-        margin-left: 10%;
-        background: white;
-        border-radius: 100%;
-        width: 350px;
-        height: 345px;
-        border: 10px solid rgb(2,0,36);
-        position: relative;
-    }
-
-    .profile-wrapper{
-        margin-top: 27%;
-        margin-left: 15%;
-        margin-right: 15%;
-        width: 70%;
-        position:absolute;
-        background: #aec0d1;
-    }
-
-    .profile h2{
-        margin-left: 29%;
-        font-size: 40px;
-        text-align: center;
-        padding-top: 5px;
-        width: 400px;
-    }
-
-    .profile p{
-        margin: 15px;
-        font-size: 32px;
-        padding-bottom: 15px;
-    }
-}
-
-/* Dimensions: Mac OSX */
-@media  only screen and (min-width: 1080px) {
-    .all-in-banner{
-        width: 100%;
-    }
-
-    .bg {
-        width: 1349px;
-        height: 400px;
-        display:block;
-        position:absolute;
-    }
-
-    .profile-img{
-        margin-top: 2%;
-        margin-left: 10%;
-        background: white;
-        border-radius: 100%;
-        width: 350px;
-        height: 345px;
-        border: 10px solid rgb(2,0,36);
-        position: relative;
-    }
-
-    .profile-wrapper{
-        margin-top: 25%;
-        margin-left: 15%;
-        margin-right: 15%;
-        width: 70%;
-        position:absolute;
-        background: #aec0d1;
-    }
-
-
-    .profile h2{
-        margin-left: 35%;
-        font-size: 30px;
-        text-align: center;
-        padding-top: 15px;
-        width: 300px;
-    }
-
-    .profile p{
-        margin: 15px;
+        margin-top: 15px;
+        margin-left: 24%;
+        width: 600px;
         font-size: 20px;
         padding-bottom: 15px;
-    }
-}
-
-/* Dimensions: Mac OSX */
-@media  only screen and (min-width: 1920px) {
-    .bg {
-        width: 1920px;
-        height: 400px;
-        display:block;
-        position:absolute;
-    }
-
-    .profile-img{
-        margin-top: 1%;
-        margin-left: 10%;
-        background: white;
-        border-radius: 100%;
-        width: 350px;
-        height: 345px;
-        border: 10px solid rgb(2,0,36);
-        position: relative;
-    }
-
-    .profile-wrapper{
-        margin-top: 15%;
-        margin-left: 15%;
-        margin-right: 15%;
-        width: 70%;
-        position:absolute;
-        background: #aec0d1;
-    }
-
-    .profile h2{
-        margin-left: 35%;
-        font-size: 40px;
         text-align: center;
-        padding-top: 5px;
-        width: 400px;
-    }
-
-    .profile p{
-        margin: 15px;
-        font-size: 32px;
-        padding-bottom: 15px;
     }
 }

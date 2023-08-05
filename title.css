@@ -2,52 +2,21 @@
     margin-left: 30px;
     margin-right: 30px;
     margin-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     text-align: center;
     color: white;
 }
 
 .title h1{
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .title p{
     padding: 8px;
-    font-size: 10px;
+    font-size: 14px;
 }
 
-/* Dimensions: Mobile */
-@media only screen and (min-width: 320px){
-    .title{
-        margin: 10px;
-        margin-bottom: 5px;
-        text-align: center;
-        color: white;
-    }
-    
-    .title h1{
-        font-size: 10px;
-    }
-    
-    .title p{
-        padding: 8px;
-        font-size: 9px;
-    }
-}
-
-/* Dimensions: Mobile on Rotate */
-@media only screen and (min-width: 667px){
-    .title h1{
-        font-size: 20px;
-    }
-    
-    .title p{
-        padding: 8px;
-        font-size: 15px;
-    }
-}
-
-/* Dimensions: Smart Phone */
+/* Dimensions: Tablet */
 @media only screen and (min-width: 768px){
     .title{
         margin-left: 30px;
