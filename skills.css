@@ -67,10 +67,19 @@ li {
     font-size: 15px;
 }
 
+/* Dimensions: Mobile on Rotate */
+@media only screen and (min-width: 635px){
+    .columns{
+        margin-top: 34%;
+        margin-left: 30%;
+        display: inline-block;
+    }
+}
+
 /* Dimensions: Tablet */
 @media only screen and (min-width: 768px) {
     .columns{
-        margin-top: 48%;
+        margin-top: 54%;
         margin-left: 25%;
         display: inline-block;
     }

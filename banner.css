@@ -56,6 +56,41 @@
     text-align: center;
 }
 
+/* Dimensions: Mobile on Rotate */
+@media only screen and (min-width: 635px){
+    .profile-img{
+        margin-top: 0%;
+        margin-left: 5%;
+        width: 100px;
+        height: 95px;
+    }
+
+    .profile-wrapper{
+        margin-top: 0px;
+        margin-left: 16%;
+        width: 75%;
+        height: 250px;
+    }
+
+    .profile h1{
+        margin-top: 0px;
+        margin-left: 15%;
+        font-size: 20px;
+        text-align: left;
+        padding-bottom: 5px;
+        width: 200px;
+    }
+
+    .profile p{
+        margin-left: 15%;
+        margin-right: 8%;
+        font-size: 15px;
+       margin-bottom: 10px;
+       text-align: left;
+    }
+
+}
+
 /* Dimensions: Tablet */
 @media only screen and (min-width: 768px){
     .all-in-banner{
