@@ -67,6 +67,15 @@ li {
     font-size: 15px;
 }
 
+.print{
+    margin-top: 0;
+    margin-left: 5%;
+    width: 90%;
+    height: 300px;
+    position:relative;
+    background: #aec0d1;
+}
+
 /* Dimensions: Mobile on Rotate */
 @media only screen and (min-width: 635px){
     .columns{
@@ -80,7 +89,7 @@ li {
 @media only screen and (min-width: 768px) {
     .columns{
         margin-top: 54%;
-        margin-left: 25%;
+        margin-left: 23%;
         display: inline-block;
     }
 
@@ -110,9 +119,14 @@ li {
     .columns{
         margin-left: 5%;
         margin-right: 5%;
+        margin-top: 50%;
         display: flex;
         justify-content: space-between;
         gap: 0.5%;
+    }
+
+    br{
+        display: none;
     }
 
     .column{
