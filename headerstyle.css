@@ -235,7 +235,7 @@
 }
 
 /* Dimensions: Smart Phone */
-  @media only screen and (min-width: 768px){
+
     .header img{
       margin-left: 30px;
       margin-top: 15px;

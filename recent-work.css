@@ -1,0 +1,107 @@
+.recent-work {
+  padding-top: 50px;
+  padding-bottom: 80px;
+  background-color: white;
+  text-align: center;
+}
+
+.recent-work-title {
+  padding-bottom: 10px;
+}
+
+.project-links{
+  margin-bottom: 30px;
+}
+
+.project p{
+  font-size: 25px;
+}
+
+.email {
+  padding: 0;
+  font-size: 25px;
+  color: red;
+  font-weight: bolder;
+}
+
+.email:hover {
+  color: rgb(110, 7, 243);
+  text-decoration: underline;
+  text-decoration-color: red;
+  text-decoration-thickness: 2px;
+}
+
+.button {
+  margin: 0;
+  appearance: none;
+  background-color: #FFFFFF;
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #ADCFFF 0 -12px 6px inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -.24px;
+  outline: none;
+  padding: 1rem 1.3rem;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button:hover {
+  background-color: #FFC229;
+  box-shadow: #FF6314 0 -6px 8px inset;
+  transform: scale(1.125);
+}
+
+.button:active {
+  transform: scale(1.025);
+}
+
+hr{
+  margin-bottom: 30px;
+}
+
+.collabo{
+  font-size: 10px;
+  width: 300px;
+  display: inline-block;
+}
+
+@media (min-width: 768px) {
+  .project-links {
+    font-size: 1.5rem;
+    padding: .7
+    5rem 2rem;
+  }
+
+  .project p{
+    font-size: 25px;
+    width: 600px;
+    padding-left: 10%;
+  }
+
+  .email {
+    padding: 0;
+  }
+
+  .collabo{
+    font-size: 20px;
+    width: 600px;
+  }
+}
+
+@media only screen and (min-width: 1000px){
+  .project p{
+    padding-left: 20%;
+  }
+}
